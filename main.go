@@ -15,6 +15,8 @@ func main(  ) {
 		PREFIX = ""
 	)
 
+	var err error = nil
+
 	v := viper.New()
 
 
@@ -25,14 +27,16 @@ func main(  ) {
 
 
 	var yamlExample = []byte(`
-		Hacker: true
+		Hacker: true ""
 		Name: steve
 		Hobbies: hobb-its
 		Clothing: "clothing"
 		Age: 35
 	`)
-	v.ReadConfig(bytes.NewBuffer(yamlExample))
-
+	err = v.ReadConfig(bytes.NewBuffer(yamlExample))
+	if err != nil {
+		fmt.Println(err)
+	}
 
 
 
@@ -46,7 +50,7 @@ func main(  ) {
 
 	cf := Config{}
 
-	err := v.Unmarshal(&cf)
+	err = v.Unmarshal(&cf)
 	if err != nil {
 		fmt.Println(err)
 	}

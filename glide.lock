@@ -1,14 +1,6 @@
 hash: 2c8e6acfa18a8631df356070aa2881e0969e2d249908b726e6a2c2732937cfc5
-updated: 2016-10-14T09:46:31.2595789+01:00
+updated: 2016-10-14T10:45:44.8714278+01:00
 imports:
-- name: github.com/armon/consul-api
-  version: dcfedd50ed5334f96adee43fc88518a4f095e15c
-  subpackages:
-  - github.com\armon\consul-api
-- name: github.com/coreos/go-etcd
-  version: 003851be7bb0694fe3cc457a49529a19388ee7cf
-  subpackages:
-  - github.com\coreos\go-etcd\etcd
 - name: github.com/fsnotify/fsnotify
   version: bd2828f9f176e52d7222e565abb2d338d3f3c103
   subpackages:
@@ -72,36 +64,16 @@ imports:
   subpackages:
   - github.com\spf13\pflag
 - name: github.com/spf13/viper
-  version: 44208030b391907a5ec5c5658470bdb6e6169073
+  version: 50515b700e02658272117a72bd641b6b7f1222e5
   subpackages:
   - github.com\spf13\viper
-  - github.com\spf13\viper\remote
-- name: github.com/ugorji/go
-  version: faddd6128c66c4708f45fdc007f575f75e592a3c
-  subpackages:
-  - github.com\ugorji\go\codec
-- name: github.com/xordataexchange/crypt
-  version: 749e360c8f236773f28fc6d3ddfce4a470795227
-  subpackages:
-  - github.com\xordataexchange\crypt\config
-  - github.com\xordataexchange\crypt\backend
-  - github.com\xordataexchange\crypt\backend\consul
-  - github.com\xordataexchange\crypt\backend\etcd
-  - github.com\xordataexchange\crypt\encoding\secconf
 - name: golang.org/x/crypto
   version: 5f31782cfb2b6373211f8f9fbf31283fa234b570
   subpackages:
   - golang.org\x\crypto\ssh
-  - golang.org\x\crypto\openpgp
   - golang.org\x\crypto\curve25519
   - golang.org\x\crypto\ed25519
-  - golang.org\x\crypto\openpgp\armor
-  - golang.org\x\crypto\openpgp\errors
-  - golang.org\x\crypto\openpgp\packet
-  - golang.org\x\crypto\openpgp\s2k
   - golang.org\x\crypto\ed25519\internal\edwards25519
-  - golang.org\x\crypto\cast5
-  - golang.org\x\crypto\openpgp\elgamal
 - name: golang.org/x/sys
   version: 9bb9f0998d48b31547d975974935ae9b48c7a03c
   subpackages:
