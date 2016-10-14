@@ -1,0 +1,118 @@
+hash: 2c8e6acfa18a8631df356070aa2881e0969e2d249908b726e6a2c2732937cfc5
+updated: 2016-10-14T09:46:31.2595789+01:00
+imports:
+- name: github.com/armon/consul-api
+  version: dcfedd50ed5334f96adee43fc88518a4f095e15c
+  subpackages:
+  - github.com\armon\consul-api
+- name: github.com/coreos/go-etcd
+  version: 003851be7bb0694fe3cc457a49529a19388ee7cf
+  subpackages:
+  - github.com\coreos\go-etcd\etcd
+- name: github.com/fsnotify/fsnotify
+  version: bd2828f9f176e52d7222e565abb2d338d3f3c103
+  subpackages:
+  - github.com\fsnotify\fsnotify
+- name: github.com/hashicorp/hcl
+  version: 6f5bfed9a0a22222fbe4e731ae3481730ba41e93
+  subpackages:
+  - github.com\hashicorp\hcl
+  - github.com\hashicorp\hcl\hcl\ast
+  - github.com\hashicorp\hcl\hcl\parser
+  - github.com\hashicorp\hcl\hcl\token
+  - github.com\hashicorp\hcl\json\parser
+  - github.com\hashicorp\hcl\hcl\scanner
+  - github.com\hashicorp\hcl\hcl\strconv
+  - github.com\hashicorp\hcl\json\scanner
+  - github.com\hashicorp\hcl\json\token
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+  subpackages:
+  - github.com\kr\fs
+- name: github.com/magiconair/properties
+  version: 0723e352fa358f9322c938cc2dadda874e9151a9
+  subpackages:
+  - github.com\magiconair\properties
+- name: github.com/mitchellh/mapstructure
+  version: a6ef2f080c66d0a2e94e97cf74f80f772855da63
+  subpackages:
+  - github.com\mitchellh\mapstructure
+- name: github.com/pelletier/go-buffruneio
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
+  subpackages:
+  - github.com\pelletier\go-buffruneio
+- name: github.com/pelletier/go-toml
+  version: 45932ad32dfdd20826f5671da37a5f3ce9f26a8d
+  subpackages:
+  - github.com\pelletier\go-toml
+- name: github.com/pkg/errors
+  version: 839d9e913e063e28dfd0e6c7b7512793e0a48be9
+  subpackages:
+  - github.com\pkg\errors
+- name: github.com/pkg/sftp
+  version: 4d0e916071f68db74f8a73926335f809396d6b42
+  subpackages:
+  - github.com\pkg\sftp
+- name: github.com/spf13/afero
+  version: 52e4a6cfac46163658bd4f123c49b6ee7dc75f78
+  subpackages:
+  - github.com\spf13\afero
+  - github.com\spf13\afero\mem
+  - github.com\spf13\afero\sftp
+- name: github.com/spf13/cast
+  version: 2580bc98dc0e62908119e4737030cc2fdfc45e4c
+  subpackages:
+  - github.com\spf13\cast
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+  subpackages:
+  - github.com\spf13\jwalterweatherman
+- name: github.com/spf13/pflag
+  version: bf8481a6aebc13a8aab52e699ffe2e79771f5a3f
+  subpackages:
+  - github.com\spf13\pflag
+- name: github.com/spf13/viper
+  version: 44208030b391907a5ec5c5658470bdb6e6169073
+  subpackages:
+  - github.com\spf13\viper
+  - github.com\spf13\viper\remote
+- name: github.com/ugorji/go
+  version: faddd6128c66c4708f45fdc007f575f75e592a3c
+  subpackages:
+  - github.com\ugorji\go\codec
+- name: github.com/xordataexchange/crypt
+  version: 749e360c8f236773f28fc6d3ddfce4a470795227
+  subpackages:
+  - github.com\xordataexchange\crypt\config
+  - github.com\xordataexchange\crypt\backend
+  - github.com\xordataexchange\crypt\backend\consul
+  - github.com\xordataexchange\crypt\backend\etcd
+  - github.com\xordataexchange\crypt\encoding\secconf
+- name: golang.org/x/crypto
+  version: 5f31782cfb2b6373211f8f9fbf31283fa234b570
+  subpackages:
+  - golang.org\x\crypto\ssh
+  - golang.org\x\crypto\openpgp
+  - golang.org\x\crypto\curve25519
+  - golang.org\x\crypto\ed25519
+  - golang.org\x\crypto\openpgp\armor
+  - golang.org\x\crypto\openpgp\errors
+  - golang.org\x\crypto\openpgp\packet
+  - golang.org\x\crypto\openpgp\s2k
+  - golang.org\x\crypto\ed25519\internal\edwards25519
+  - golang.org\x\crypto\cast5
+  - golang.org\x\crypto\openpgp\elgamal
+- name: golang.org/x/sys
+  version: 9bb9f0998d48b31547d975974935ae9b48c7a03c
+  subpackages:
+  - golang.org\x\sys\unix
+- name: golang.org/x/text
+  version: c745997bb18563e8788428768ce0f034f2b663df
+  subpackages:
+  - golang.org\x\text\transform
+  - golang.org\x\text\unicode\norm
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+  subpackages:
+  - gopkg.in\yaml.v2
+devImports: []

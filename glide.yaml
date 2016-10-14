@@ -1,0 +1,3 @@
+package: github.com/Tlantic/viper--258
+import:
+- package: github.com/spf13/viper
