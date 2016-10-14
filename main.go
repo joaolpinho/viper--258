@@ -26,10 +26,10 @@ func main(  ) {
 
 	var yamlExample = []byte(`
 		Hacker: true
-		name: steve
-		hobbies: hobb-its
-		clothing: "clothing"
-		age: 35
+		Name: steve
+		Hobbies: hobb-its
+		Clothing: "clothing"
+		Age: 35
 	`)
 	v.ReadConfig(bytes.NewBuffer(yamlExample))
 
@@ -37,11 +37,11 @@ func main(  ) {
 
 
 	type Config struct {
-		Hacker bool
-		name string
-		hobbies string
-		clothing string
-		age int
+		Hacker   bool
+		Name     string
+		Hobbies  string
+		Clothing string
+		Age      int
 	}
 
 	cf := Config{}
@@ -52,8 +52,8 @@ func main(  ) {
 	}
 
 	fmt.Printf("%v == %v\n",v.Get("Hacker"), cf.Hacker )
-	fmt.Printf("%v == %v\n",v.Get("name"), cf.name )
-	fmt.Printf("%v == %v\n",v.Get("hobbies"), cf.hobbies )
-	fmt.Printf("%v == %v\n",v.Get("clothing"), cf.clothing )
-	fmt.Printf("%v == %v\n",v.Get("age"), cf.age )
+	fmt.Printf("%v == %v\n",v.Get("Name"), cf.Name )
+	fmt.Printf("%v == %v\n",v.Get("Hobbies"), cf.Hobbies )
+	fmt.Printf("%v == %v\n",v.Get("Clothing"), cf.Clothing )
+	fmt.Printf("%v == %v\n",v.Get("Age"), cf.Age )
 }
