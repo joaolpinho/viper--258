@@ -27,11 +27,11 @@ func main(  ) {
 
 
 	var yamlExample = []byte(`
-		Hacker: true ""
-		Name: steve
-		Hobbies: hobb-its
-		Clothing: "clothing"
-		Age: 35
+	Hacker: true
+	Name: steve
+	Hobbies: hobb-its
+	Clothing: "clothing"
+	Age: 35
 	`)
 	err = v.ReadConfig(bytes.NewBuffer(yamlExample))
 	if err != nil {
